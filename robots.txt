@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bukitjalil-queenswoodz.com/sitemap.xml
