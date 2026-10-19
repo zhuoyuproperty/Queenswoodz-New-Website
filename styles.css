@@ -96,6 +96,19 @@ button { font: inherit; cursor: pointer; }
 .btn-block { width: 100%; justify-content: center; }
 .btn svg { flex: none; }
 
+/* ---------- Disclosure bar ---------- */
+.disclosure-bar {
+  background: var(--espresso-deep);
+  color: var(--stone-2);
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  font-style: italic;
+  border-bottom: 1px solid rgba(251,248,242,0.12);
+}
+.disclosure-bar p { margin: 0; }
+
 /* ---------- Header ---------- */
 .site-header {
   position: sticky;
