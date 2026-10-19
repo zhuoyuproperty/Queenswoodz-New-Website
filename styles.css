@@ -215,6 +215,13 @@ button { font: inherit; cursor: pointer; }
   max-width: 16ch;
   margin-bottom: 18px;
 }
+.hero-marketed {
+  max-width: 56ch;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  color: var(--gold-soft);
+  margin-bottom: 14px;
+}
 .hero-sub {
   max-width: 56ch;
   font-size: clamp(1rem, 1.6vw, 1.15rem);
@@ -457,6 +464,9 @@ button { font: inherit; cursor: pointer; }
 .disclaimer-col p { margin: 0 0 10px; }
 .disclaimer-col strong { color: #d6cfc0; }
 .disclaimer-note { margin: 0; font-style: italic; }
+.disclaimer-lead { margin-bottom: 18px; font-style: normal; }
+.footer-gallery-h { margin-top: 22px; }
+.footer-gallery { font-style: normal; font-size: 0.85rem; line-height: 1.6; }
 
 @media (min-width: 760px) {
   .disclaimer-grid { grid-template-columns: 1.3fr 0.85fr 1fr; }
